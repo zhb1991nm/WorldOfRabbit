@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD9DDE1C19AE2DBE0000ADB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE1B19AE2DBE0000ADB8 /* Foundation.framework */; };
+		FD9DDE1E19AE2DBE0000ADB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE1D19AE2DBE0000ADB8 /* CoreGraphics.framework */; };
+		FD9DDE2019AE2DBE0000ADB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE1F19AE2DBE0000ADB8 /* UIKit.framework */; };
+		FD9DDE2219AE2DBE0000ADB8 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE2119AE2DBE0000ADB8 /* SpriteKit.framework */; };
+		FD9DDE2819AE2DBE0000ADB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD9DDE2619AE2DBE0000ADB8 /* InfoPlist.strings */; };
+		FD9DDE2A19AE2DBE0000ADB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DDE2919AE2DBE0000ADB8 /* main.m */; };
+		FD9DDE2E19AE2DBE0000ADB8 /* ZHBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DDE2D19AE2DBE0000ADB8 /* ZHBAppDelegate.m */; };
+		FD9DDE3119AE2DBE0000ADB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9DDE2F19AE2DBE0000ADB8 /* Main.storyboard */; };
+		FD9DDE3419AE2DBE0000ADB8 /* ZHBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DDE3319AE2DBE0000ADB8 /* ZHBViewController.m */; };
+		FD9DDE3719AE2DBE0000ADB8 /* ZHBMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DDE3619AE2DBE0000ADB8 /* ZHBMyScene.m */; };
+		FD9DDE3919AE2DBE0000ADB8 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9DDE3819AE2DBE0000ADB8 /* Spaceship.png */; };
+		FD9DDE3B19AE2DBE0000ADB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9DDE3A19AE2DBE0000ADB8 /* Images.xcassets */; };
+		FD9DDE4219AE2DBE0000ADB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE4119AE2DBE0000ADB8 /* XCTest.framework */; };
+		FD9DDE4319AE2DBE0000ADB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE1B19AE2DBE0000ADB8 /* Foundation.framework */; };
+		FD9DDE4419AE2DBE0000ADB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9DDE1F19AE2DBE0000ADB8 /* UIKit.framework */; };
+		FD9DDE4C19AE2DBE0000ADB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD9DDE4A19AE2DBE0000ADB8 /* InfoPlist.strings */; };
+		FD9DDE4E19AE2DBE0000ADB8 /* WorldOfRabbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DDE4D19AE2DBE0000ADB8 /* WorldOfRabbitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD9DDE4519AE2DBE0000ADB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9DDE1019AE2DBD0000ADB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9DDE1719AE2DBD0000ADB8;
+			remoteInfo = WorldOfRabbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD9DDE1819AE2DBD0000ADB8 /* WorldOfRabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfRabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9DDE1B19AE2DBE0000ADB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD9DDE1D19AE2DBE0000ADB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD9DDE1F19AE2DBE0000ADB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD9DDE2119AE2DBE0000ADB8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FD9DDE2519AE2DBE0000ADB8 /* WorldOfRabbit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldOfRabbit-Info.plist"; sourceTree = "<group>"; };
+		FD9DDE2719AE2DBE0000ADB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD9DDE2919AE2DBE0000ADB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD9DDE2B19AE2DBE0000ADB8 /* WorldOfRabbit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldOfRabbit-Prefix.pch"; sourceTree = "<group>"; };
+		FD9DDE2C19AE2DBE0000ADB8 /* ZHBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBAppDelegate.h; sourceTree = "<group>"; };
+		FD9DDE2D19AE2DBE0000ADB8 /* ZHBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBAppDelegate.m; sourceTree = "<group>"; };
+		FD9DDE3019AE2DBE0000ADB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9DDE3219AE2DBE0000ADB8 /* ZHBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBViewController.h; sourceTree = "<group>"; };
+		FD9DDE3319AE2DBE0000ADB8 /* ZHBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBViewController.m; sourceTree = "<group>"; };
+		FD9DDE3519AE2DBE0000ADB8 /* ZHBMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBMyScene.h; sourceTree = "<group>"; };
+		FD9DDE3619AE2DBE0000ADB8 /* ZHBMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBMyScene.m; sourceTree = "<group>"; };
+		FD9DDE3819AE2DBE0000ADB8 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FD9DDE3A19AE2DBE0000ADB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD9DDE4019AE2DBE0000ADB8 /* WorldOfRabbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOfRabbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9DDE4119AE2DBE0000ADB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD9DDE4919AE2DBE0000ADB8 /* WorldOfRabbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldOfRabbitTests-Info.plist"; sourceTree = "<group>"; };
+		FD9DDE4B19AE2DBE0000ADB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD9DDE4D19AE2DBE0000ADB8 /* WorldOfRabbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldOfRabbitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9DDE1519AE2DBD0000ADB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DDE1E19AE2DBE0000ADB8 /* CoreGraphics.framework in Frameworks */,
+				FD9DDE2019AE2DBE0000ADB8 /* UIKit.framework in Frameworks */,
+				FD9DDE2219AE2DBE0000ADB8 /* SpriteKit.framework in Frameworks */,
+				FD9DDE1C19AE2DBE0000ADB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9DDE3D19AE2DBE0000ADB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DDE4219AE2DBE0000ADB8 /* XCTest.framework in Frameworks */,
+				FD9DDE4419AE2DBE0000ADB8 /* UIKit.framework in Frameworks */,
+				FD9DDE4319AE2DBE0000ADB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD9DDE0F19AE2DBD0000ADB8 = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE2319AE2DBE0000ADB8 /* WorldOfRabbit */,
+				FD9DDE4719AE2DBE0000ADB8 /* WorldOfRabbitTests */,
+				FD9DDE1A19AE2DBD0000ADB8 /* Frameworks */,
+				FD9DDE1919AE2DBD0000ADB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9DDE1919AE2DBD0000ADB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE1819AE2DBD0000ADB8 /* WorldOfRabbit.app */,
+				FD9DDE4019AE2DBE0000ADB8 /* WorldOfRabbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9DDE1A19AE2DBD0000ADB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE1B19AE2DBE0000ADB8 /* Foundation.framework */,
+				FD9DDE1D19AE2DBE0000ADB8 /* CoreGraphics.framework */,
+				FD9DDE1F19AE2DBE0000ADB8 /* UIKit.framework */,
+				FD9DDE2119AE2DBE0000ADB8 /* SpriteKit.framework */,
+				FD9DDE4119AE2DBE0000ADB8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD9DDE2319AE2DBE0000ADB8 /* WorldOfRabbit */ = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE2C19AE2DBE0000ADB8 /* ZHBAppDelegate.h */,
+				FD9DDE2D19AE2DBE0000ADB8 /* ZHBAppDelegate.m */,
+				FD9DDE2F19AE2DBE0000ADB8 /* Main.storyboard */,
+				FD9DDE3219AE2DBE0000ADB8 /* ZHBViewController.h */,
+				FD9DDE3319AE2DBE0000ADB8 /* ZHBViewController.m */,
+				FD9DDE3519AE2DBE0000ADB8 /* ZHBMyScene.h */,
+				FD9DDE3619AE2DBE0000ADB8 /* ZHBMyScene.m */,
+				FD9DDE3819AE2DBE0000ADB8 /* Spaceship.png */,
+				FD9DDE3A19AE2DBE0000ADB8 /* Images.xcassets */,
+				FD9DDE2419AE2DBE0000ADB8 /* Supporting Files */,
+			);
+			path = WorldOfRabbit;
+			sourceTree = "<group>";
+		};
+		FD9DDE2419AE2DBE0000ADB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE2519AE2DBE0000ADB8 /* WorldOfRabbit-Info.plist */,
+				FD9DDE2619AE2DBE0000ADB8 /* InfoPlist.strings */,
+				FD9DDE2919AE2DBE0000ADB8 /* main.m */,
+				FD9DDE2B19AE2DBE0000ADB8 /* WorldOfRabbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD9DDE4719AE2DBE0000ADB8 /* WorldOfRabbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE4D19AE2DBE0000ADB8 /* WorldOfRabbitTests.m */,
+				FD9DDE4819AE2DBE0000ADB8 /* Supporting Files */,
+			);
+			path = WorldOfRabbitTests;
+			sourceTree = "<group>";
+		};
+		FD9DDE4819AE2DBE0000ADB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9DDE4919AE2DBE0000ADB8 /* WorldOfRabbitTests-Info.plist */,
+				FD9DDE4A19AE2DBE0000ADB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9DDE1719AE2DBD0000ADB8 /* WorldOfRabbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9DDE5119AE2DBF0000ADB8 /* Build configuration list for PBXNativeTarget "WorldOfRabbit" */;
+			buildPhases = (
+				FD9DDE1419AE2DBD0000ADB8 /* Sources */,
+				FD9DDE1519AE2DBD0000ADB8 /* Frameworks */,
+				FD9DDE1619AE2DBD0000ADB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldOfRabbit;
+			productName = WorldOfRabbit;
+			productReference = FD9DDE1819AE2DBD0000ADB8 /* WorldOfRabbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD9DDE3F19AE2DBE0000ADB8 /* WorldOfRabbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9DDE5419AE2DBF0000ADB8 /* Build configuration list for PBXNativeTarget "WorldOfRabbitTests" */;
+			buildPhases = (
+				FD9DDE3C19AE2DBE0000ADB8 /* Sources */,
+				FD9DDE3D19AE2DBE0000ADB8 /* Frameworks */,
+				FD9DDE3E19AE2DBE0000ADB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9DDE4619AE2DBE0000ADB8 /* PBXTargetDependency */,
+			);
+			name = WorldOfRabbitTests;
+			productName = WorldOfRabbitTests;
+			productReference = FD9DDE4019AE2DBE0000ADB8 /* WorldOfRabbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9DDE1019AE2DBD0000ADB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZHB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "张浩波";
+				TargetAttributes = {
+					FD9DDE3F19AE2DBE0000ADB8 = {
+						TestTargetID = FD9DDE1719AE2DBD0000ADB8;
+					};
+				};
+			};
+			buildConfigurationList = FD9DDE1319AE2DBD0000ADB8 /* Build configuration list for PBXProject "WorldOfRabbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9DDE0F19AE2DBD0000ADB8;
+			productRefGroup = FD9DDE1919AE2DBD0000ADB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9DDE1719AE2DBD0000ADB8 /* WorldOfRabbit */,
+				FD9DDE3F19AE2DBE0000ADB8 /* WorldOfRabbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9DDE1619AE2DBD0000ADB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DDE2819AE2DBE0000ADB8 /* InfoPlist.strings in Resources */,
+				FD9DDE3B19AE2DBE0000ADB8 /* Images.xcassets in Resources */,
+				FD9DDE3919AE2DBE0000ADB8 /* Spaceship.png in Resources */,
+				FD9DDE3119AE2DBE0000ADB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9DDE3E19AE2DBE0000ADB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DDE4C19AE2DBE0000ADB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9DDE1419AE2DBD0000ADB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DDE2A19AE2DBE0000ADB8 /* main.m in Sources */,
+				FD9DDE2E19AE2DBE0000ADB8 /* ZHBAppDelegate.m in Sources */,
+				FD9DDE3419AE2DBE0000ADB8 /* ZHBViewController.m in Sources */,
+				FD9DDE3719AE2DBE0000ADB8 /* ZHBMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9DDE3C19AE2DBE0000ADB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DDE4E19AE2DBE0000ADB8 /* WorldOfRabbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD9DDE4619AE2DBE0000ADB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9DDE1719AE2DBD0000ADB8 /* WorldOfRabbit */;
+			targetProxy = FD9DDE4519AE2DBE0000ADB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD9DDE2619AE2DBE0000ADB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9DDE2719AE2DBE0000ADB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD9DDE2F19AE2DBE0000ADB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9DDE3019AE2DBE0000ADB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9DDE4A19AE2DBE0000ADB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9DDE4B19AE2DBE0000ADB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9DDE4F19AE2DBE0000ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD9DDE5019AE2DBE0000ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9DDE5219AE2DBF0000ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldOfRabbit/WorldOfRabbit-Prefix.pch";
+				INFOPLIST_FILE = "WorldOfRabbit/WorldOfRabbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD9DDE5319AE2DBF0000ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldOfRabbit/WorldOfRabbit-Prefix.pch";
+				INFOPLIST_FILE = "WorldOfRabbit/WorldOfRabbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FD9DDE5519AE2DBF0000ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldOfRabbit.app/WorldOfRabbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldOfRabbit/WorldOfRabbit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorldOfRabbitTests/WorldOfRabbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FD9DDE5619AE2DBF0000ADB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldOfRabbit.app/WorldOfRabbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldOfRabbit/WorldOfRabbit-Prefix.pch";
+				INFOPLIST_FILE = "WorldOfRabbitTests/WorldOfRabbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9DDE1319AE2DBD0000ADB8 /* Build configuration list for PBXProject "WorldOfRabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9DDE4F19AE2DBE0000ADB8 /* Debug */,
+				FD9DDE5019AE2DBE0000ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9DDE5119AE2DBF0000ADB8 /* Build configuration list for PBXNativeTarget "WorldOfRabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9DDE5219AE2DBF0000ADB8 /* Debug */,
+				FD9DDE5319AE2DBF0000ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD9DDE5419AE2DBF0000ADB8 /* Build configuration list for PBXNativeTarget "WorldOfRabbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9DDE5519AE2DBF0000ADB8 /* Debug */,
+				FD9DDE5619AE2DBF0000ADB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9DDE1019AE2DBD0000ADB8 /* Project object */;
+}
